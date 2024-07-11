@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+    text-decoration: none;
+    font-family: montserrat;
+}
+
+
+body{
+    background-color: #ffffff;
+}
+header{
+    color: black;
+    font-family: montserrat;
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    float: left;
+    padding: 0 4.3rem 0;
+}
+
+.logo img{
+    height: 3.8rem;
+    padding-top: 20px;
+}
+
+.logo img:hover{
+    transform: scale(1.1);
+}
+
+.navegacion{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 5.625rem;
+    z-index: 1000;
+}
+
+.navegacion ul{
+    list-style: none;
+    padding: 0;   
+}
+
+.navegacion ul li{
+    display: inline-block;
+    position: relative;
+    z-index: 1000;
+}
+
+.navegacion ul li:hover{
+    transform: scale(1.1);
+}
+
+.navegacion ul li a {
+    color: white;
+    text-align: center;
+    font-size: .9375rem;
+    padding: 2.5rem;
+}
+
+.interior{
+    max-width: 100%;
+    padding: 0 .625rem;
+    margin: auto;
+}
+
+
+
+.texto{
+    font-size: 0.9375rem; 
+    margin: 0 0 -10rem 0; 
+    text-align: center;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 14.375rem;
+    padding: 14.375rem 0 0 18.75rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.seccion-parrafo-inicio{
+    background-image:url(./assets/seccion\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 75rem;
+
+}
+
+.texto{
+    font-weight: 500;
+}
+
+.VER-MAS{
+    background-color:#E01919 ;
+    border: none;
+    color: white;
+    padding: 1.25rem 3.75rem;  
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: montserrat;
+    margin-left: 18.75rem;
+    border-radius: 1.875rem;
+}
+
+
+.seccion-arquitectura{
+    background-image: url(./assets/arquitectura\ fondo-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 75rem;
+}
+.seccion-arquitectura h2{
+    font-size: 6.25rem;
+    margin: 3.125rem 0 0 37.5rem;
+    font-family: montserrat;
+}
+
+.imagen-1{
+    border-radius: 2.5rem;
+    width: 43.75rem;
+    height: 25rem;
+    margin: 1.875rem .625rem 12.5rem 3.75rem; 
+}
+
+article h2 p {
+    font-size: .9375rem;
+    margin-top: -28.125rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.texto-cero{
+    font-size: .75rem;
+    padding: 15.625rem 2.5rem 0rem 2.5rem;
+    text-align: center;
+    margin-left: 3.125rem;
+    margin-right: 34.375rem;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.VER-MAS-DOS{
+    background-color:#E01919 ;
+    border: none;
+    color: white;
+    padding: 1.25rem 3.75rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: montserrat;
+    margin-left: 18.125rem;
+    border-radius: 1.875rem;
+}
+
+.seccion-vestimenta{
+    background: #E4E4E4;
+    width: auto;
+    height: 75rem;
+}
+
+.seccion-vestimenta h2{
+    font-size: 6.25rem;
+    margin: 9.375rem 31.25rem;
+    font-family: montserrat;
+    padding-left: 34.375rem;
+    padding-top: 25rem;
+}
+
+.texto-uno{
+    padding: 28.125rem 0 2.5rem 0;
+    margin-left: .625rem;
+    font-weight: 500;
+}
+
+.japonesa{
+    width: 122.5rem;
+    height: 81.25rem;
+    margin-left: -3.75rem;
+    margin-right: -118.75rem;
+    margin-bottom: -12.5rem;
+}
+
+.VER-MAS-TRES{
+    background-color:#E01919 ;
+    border: none;
+    color: white;
+    padding: 1.25rem 3.75rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: montserrat;
+    margin: 11.25rem 12.5rem;
+    border-radius: 1.875rem;
+}
+
+.seccion-gastronomia{
+    background-color: #E4E4E4;
+    width: auto;
+    height: 75rem;
+}
+
+.ramen{
+    width: auto;
+    height: 31.25rem;
+    margin-top: 12.5rem;
+    margin-left: 6.25rem;
+}
+
+.VER-MAS-CUATRO{
+    background-color:#E01919 ;
+    border: none;
+    color: white;
+    padding: 1.25rem 3.75rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: montserrat;
+    margin: 6.25rem 16.25rem;
+    border-radius: 1.875rem;
+
+}
+
+.texto-dos{
+    padding: 28.125rem .625rem 2.5rem 1.25rem;
+    font-weight: 500;
+
+}
+
+.seccion-gastronomia h2{
+    font-size: 6.25rem;
+    margin: -6.25rem -18.75rem;
+    font-family: montserrat;
+    padding: 25rem 18.75rem 0 31.25rem;
+
+}
+
+.seccion-gastronomia{
+    background-image: url(./assets/seccion\ final-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 75rem;
+    padding: 9.375rem;
+}
+
+.footer{
+    background-color: #D9D9D9;
+    padding: 4.375rem;
+}
+
+.facebook{
+    margin-left: 37.5rem;
+    margin-right: 1.25rem;
+}
+
+.instagram{
+    margin-right: 1.25rem;
+}
+
+.logo-footer{
+    margin-right: 43.75rem;
+}
+
+.footer-texto{
+    padding-left: .625rem;
+    margin-top: .3125rem;
+}
+.promotora{
+    width: auto;
+    height: 56.25rem;
+    padding-left: 12.5rem;
+    padding-top: 6.25rem;
+    padding-right: 3.125rem;
+}
+
+.container{
+    display: flex;
+}
+
+.VER-MAS-CINCO{
+    background-color:#E01919 ;
+    border: none;
+    color: white;
+    padding: 1.25rem 3.75rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: montserrat;
+    border-radius: 1.875rem;
+}
+
+.texto-nosotros{
+    padding: 28.75rem 0 0 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.seccion-nosotros{
+    background-color: #f0f0f0;
+}
+
+.seccion-nosotros h2{
+    font-size: 5.625rem;
+    margin: 6.25rem;
+    text-align: center;
+    font-family: montserrat;
+}
+
+.BOX{
+    background-color:#ebebeb ;
+    border: none;
+    color: white;
+    padding: 5rem 1.25rem;
+    margin: 1.875rem 10.625rem;
+    text-decoration: none;
+    border-radius: 1.875rem;
+    text-align: center;
+    box-shadow: .3125rem .3125rem .9375rem .0625rem #9e9e9e;
+}
+
+h5{
+    font-size: 5.625rem;
+    color: #E01919;
+    margin-left: -3.125rem;
+    margin-top: -5.625rem;
+
+}
+h6{
+    font-size: 1.25rem;
+    color: black;
+    margin-left: 6.875rem;
+    margin-top: -2.8125rem;
+}
+
+h4{ 
+    font-size: 1.5625rem;
+    color: black;
+    margin-top: .9375rem;
+    margin-bottom: -1.25rem;
+
+}
+
+h3{
+    font-size: 9.375rem;
+    color: #E01919;
+    margin-top: -6.875rem;
+    margin-bottom: 1.25rem;
+}
+
+.nube-roja-seis{
+    width: auto;
+    height: 18.75rem;
+    margin: 9.375rem -18.75rem 6.25rem -15rem;
+}
+
+.nube-roja-siete{
+    width: auto;
+    height: 18.75rem;
+    margin: 20rem 18.75rem 0 -5.4375rem;
+}
+
+
+.box-comentarios{
+    background-color:#ffffff ;
+    width: 34.375rem;
+    height: 25rem;
+    box-shadow: .3125rem .3125rem .9375rem .0625rem #9e9e9e;
+    border-radius: .9375rem;
+    flex-shrink: 0;
+    margin: 3.75rem 1.875rem 3.125rem 3.125rem;
+    padding: .625rem 6.25rem 6.25rem 6.25rem;
+}
+
+    
+
+.box-comentarios p{
+    font-size: .4375rem;
+    text-align: center;
+    margin-top: -1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.usuaria{
+    width: auto;
+    height: 5.625rem;
+    margin-left: 7.5rem;
+    margin-top: 5rem;
+
+}
+
+.estrellas{
+    width: auto;
+    height: 5.625rem;
+    margin-left: 3.125rem;
+    margin-top: -0.9375rem;
+}
+
+.VER-MAS-SIETE{
+    background-color:#E01919 ;
+    border: none;
+    color: white;
+    padding: .625rem 1.875rem;
+    text-decoration: none;
+    font-size: .625rem;
+    font-family: montserrat;
+    border-radius: 1.875rem;
+    margin-left: 6.875rem;
+
+}
+
+.seccion-experiencia{
+    background-color:#ebeaea;
+    padding-top: .0625rem;
+}
+
+.EXPERIENCIA{
+    font-size: 6.25rem;
+    text-align: center;
+    margin: -9.375rem 25rem 0 6.25rem;
+}
+
+
+.ubicacion{
+    background-image: url(./assets/IMAGEN\ UBICACION-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 106.25rem;
+}
+.seccion-ubicacion{
+    background-color:#f5f5f5;
+    width: auto;
+    height: 106.25rem;
+}
+.ubicacion h1{
+    font-size: 9.375rem;
+    color: white;
+    padding-left: 6.25rem;
+    padding-top: 8.125rem;
+    text-align: center;
+}
+
+.box-ubicaciones{
+    background-color:#ffffff ;
+    width: 78.125rem;
+    height: 28.125rem;
+    box-shadow: .3125rem .3125rem .9375rem .0625rem #9e9e9e;
+    border-radius: 4.375rem;
+    margin: 0 18.75rem 6.25rem 21.875rem;
+}
+
+.tokio{
+    width: 21.875rem;
+    height: 15.625rem;
+    border-radius: 1.25rem;
+    margin: 6.25rem 6.25rem;
+}
+
+.texto-ubicacion{
+    font-size: 4.375rem;
+    padding-left: 43.75rem;
+    margin-top: -21.875rem;
+}
+
+.box-ubicaciones p{
+    font-size: .9375rem;
+    padding-top: 31.25rem;
+    padding-right: 6.25rem;
+    margin-left: -9.375rem;
+}
+
+.seccion-contacto{
+    background-image: url(./assets/KYOTO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 35rem;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label{
+    font-size: 1.25rem;
+    margin-top: 3.75rem;
+    margin-bottom: .625rem;
+    margin-left: 18.75rem;
+}
+
+input,textarea{
+    padding: 1.25rem 1.5625rem;
+    margin-left: 18.75rem;
+    margin-right: 50rem;
+    background-color: #EFEFEF;
+    border: .125rem solid #EFEFEF;
+}
+
+aside h2{
+    font-size: 1.25rem;
+    margin-left: 81.25rem;
+    text-align: center;
+    margin-top: -37.5rem;
+}
+
+.direccion-texto{
+    font-size: .625rem;
+    margin: 10px 200px;
+    text-align: center;
+
+}
+
+.telefono{
+    font-size: 1.25rem;
+    margin-left: 81.25rem;
+    text-align: center;
+    margin-top: 3.125rem;
+}
+
+.copyright-dos{
+    margin-left: 94.375rem;
+    margin-top: 3.125rem;
+}
+
+.copyright-texto{
+    margin-left: 97.5rem;
+    margin-top: -1.875rem;
+    font-size: .75rem;
+}
+.logo-dos{
+    margin-bottom: -6.25rem;
+}
+
+.logo-dos{
+    margin-left: 95.625rem;
+}
+
+.contacto{
+    width: auto;
+    height: 87.5rem;
+}
